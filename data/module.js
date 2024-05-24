@@ -1,0 +1,58 @@
+let moduleElements = [
+  {
+    image :"images/module.png",
+    moduleHeading : "Module1",
+    mainHeading : "Tech101:Starting in Tech",
+    timeModule:{
+      lessons: "7 Lessons",
+      bullet :"•",
+      weeks : "7 weeks",
+      credits : "7 Credits",
+    },
+    gradeHeading : "Grade",
+    gradePercent : "66%",
+    percent : "66%",
+  },
+  {
+    image :"images/module.png",
+    moduleHeading : "Module1",
+    mainHeading : "Tech101:Starting in Tech",
+    timeModule:{
+      lessons: "7 Lessons",
+      bullet :"•",
+      weeks : "7 weeks",
+      credits : "7 Credits",
+    },
+    gradeHeading : "Grade",
+    gradePercent : "66%",
+    percent:"66%",
+  },
+  {
+    image :"images/module.png",
+    moduleHeading : "Module1",
+    mainHeading : "Tech101:Starting in Tech",
+    timeModule:{
+      lessons: "7 Lessons",
+      bullet :"•",
+      weeks : "7 weeks",
+      credits : "7 Credits",
+    },
+    gradeHeading : "Grade",
+    gradePercent : "66%",
+    percent:"66%",
+  },
+  {
+    image :"images/module.png",
+    moduleHeading : "Module1",
+    mainHeading : "Tech101:Starting in Tech",
+    timeModule:{
+      lessons: "7 Lessons",
+      bullet :"•",
+      weeks : "7 weeks",
+      credits : "7 Credits",
+    },
+    gradeHeading : "Grade",
+    gradePercent : "66%",
+    percent:"66%",
+  },
+]

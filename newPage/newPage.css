@@ -1,0 +1,105 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+html, body {
+ height: 100%; /* Ensures the HTML and body take up full height */
+ margin: 0;
+ padding: 0;
+}
+
+body {
+ background-color: #d9c1ea;
+ display: flex; /* Ensures body can flex and expand */
+ flex-direction: column;
+ min-height: 100vh; /* Ensures body takes at least full viewport height */
+}
+
+.header{
+  height: 55px;
+  border-bottom: 2px solid #cdcacf;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  z-index: 1000;
+}
+
+.nav{
+  height: 30px;
+  /* margin-top: 15px; */
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+  margin-right: 20px;
+  /* margin-top: 10px; */
+  margin-bottom: 5px;
+}
+
+.nav-child{
+  display: flex;
+  justify-content: space-between;
+  height: 30px;
+  margin: 10px;
+  align-items: center;
+}
+.grid-icon{
+  margin-right: 10px;
+}
+
+.title{
+  font-size:xx-large;
+  font-weight: bolder;
+  color: #7732a8;
+}
+
+.title span{
+  color: black;
+}
+
+.details{
+  border: 2px solid #bcb8be;
+  padding-top:2px;
+  margin: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  border-radius:40px;
+}
+
+.icon{
+  color: #7732a8;
+  font-size:x-large;
+  font-weight: 300;
+
+}
+
+.bell-icon{
+  color: #7732a8;
+  font-size:larger;
+  font-weight: 300;
+  border: 2px solid #7732a8;
+  border-radius: 50%;
+  padding: 5px;
+
+}
+
+.menu-icon img{
+  height: 20px;
+  width: 20px;
+  padding-top: 5px;
+  margin-left: 10px;
+}
+
+
+
+img{
+  width: 40px;
+}
+
+main{
+  padding-top: 57px;
+  display: flex;
+  flex-grow: 1; /* Ensures main expands */
+  min-height: calc(100vh - 57px);
+   /* Ensures main takes at least the remaining viewport height */
+}
